@@ -1,14 +1,16 @@
 import React from "react";
 import Link from "next/link";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
+  const { t } = useTranslation();
   return (
     <>
       <footer className="footer-area">
         <div className="container">
           <div className="row">
-            <div className="col-lg-3 col-md-6 col-sm-6">
+            <div className="col-lg-3 col-md-6 col-sm-6 ml-6">
               <div
                 className="single-footer-widget"
                 data-aos="fade-in"
@@ -58,23 +60,19 @@ const Footer = () => {
                 data-aos-duration="1200"
                 data-aos-delay="200"
               >
-                <h3>Services</h3>
+                <h3>{t("header.services")}</h3>
 
                 <ul className="footer-services-list">
                   <li>
-                    <Link href="/service-details">Product Engineering</Link>
+                    <Link href="/service-details">{t("footer.design")}</Link>
                   </li>
                   <li>
-                    <Link href="/service-details">UX/UI Design</Link>
+                    <Link href="/service-details">
+                      {t("footer.desktopApp")}
+                    </Link>
                   </li>
                   <li>
-                    <Link href="/service-details">Big Data Analysis</Link>
-                  </li>
-                  <li>
-                    <Link href="/service-details">Desktop Applications</Link>
-                  </li>
-                  <li>
-                    <Link href="/service-details">Mobile Applications</Link>
+                    <Link href="/service-details">{t("footer.mobileApp")}</Link>
                   </li>
                 </ul>
               </div>
@@ -87,23 +85,20 @@ const Footer = () => {
                 data-aos-duration="1200"
                 data-aos-delay="300"
               >
-                <h3>Quick Links</h3>
+                <h3>{t("footer.quickLinks")}</h3>
 
                 <ul className="quick-links-list">
                   <li>
-                    <Link href="/about">About Us</Link>
+                    <Link href="/about">{t("header.about")}</Link>
                   </li>
                   <li>
-                    <Link href="/blog">Blog</Link>
+                    <Link href="/contact">{t("header.contact")}</Link>
                   </li>
                   <li>
-                    <Link href="/contact">Contact</Link>
+                    <Link href="/services">{t("header.services")}</Link>
                   </li>
                   <li>
-                    <Link href="/services">Services</Link>
-                  </li>
-                  <li>
-                    <Link href="/pricing">Pricing</Link>
+                    <Link href="/projects">{t("header.projects")}</Link>
                   </li>
                 </ul>
               </div>
@@ -116,24 +111,20 @@ const Footer = () => {
                 data-aos-duration="1200"
                 data-aos-delay="400"
               >
-                <h3>Contacts</h3>
+                <h3>{t("header.contact")}</h3>
 
                 <ul className="footer-contact-list">
                   <li>
-                    <span>Address:</span>
-                    2750 Quadra Street <br /> Victoria, Canada
+                    <span>{t("footer.address")}:</span>
+                    {t("footer.address1")}
                   </li>
                   <li>
-                    <span>Email:</span>
-                    bariton@gmail.com
+                    <span>{t("footer.email")}:</span>
+                    {t("footer.email1")}
                   </li>
                   <li>
-                    <span>Phone:</span>
-                    +44 587 154756
-                  </li>
-                  <li>
-                    <span>Fax:</span>
-                    +44 785 4578964
+                    <span>{t("footer.phone")}:</span>
+                    {t("footer.phone1")}
                   </li>
                 </ul>
               </div>
@@ -146,21 +137,17 @@ const Footer = () => {
             <div className="row align-items-center">
               <div className="col-lg-6 col-md-6 col-sm-6">
                 <p>
-                  Copyright &copy;{currentYear} Bariton. All Rights Reserved{" "}
-                  <a href="https://envytheme.com/" target="_blank">
-                    EnvyTheme
-                  </a>
-                  .
+                  Copyright &copy;{currentYear} Bariton. {t("footer.rights")}.
                 </p>
               </div>
 
               <div className="col-lg-6 col-md-6 col-sm-6">
                 <ul>
                   <li>
-                    <Link href="/privacy-policy">Privacy Policy</Link>
+                    <Link href="/privacy-policy">{t("footer.policy")}</Link>
                   </li>
                   <li>
-                    <Link href="/terms-conditions">Terms & Conditions</Link>
+                    <Link href="/terms-conditions">{t("footer.terms")}</Link>
                   </li>
                 </ul>
               </div>

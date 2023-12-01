@@ -80,9 +80,11 @@ const NavbarFive = () => {
                 <ul className="navbar-nav">
                   <li className="nav-item">
                     <Link
-                      href="#"
+                      href="/"
                       className={`nav-link ${currentPath == "/" && "active"}`}
-                    ></Link>
+                    >
+                      {t("header.main")}
+                    </Link>
                   </li>
 
                   <li className="nav-item">
@@ -103,7 +105,7 @@ const NavbarFive = () => {
                         currentPath == "/services/" && "active"
                       }`}
                     >
-                      Services
+                      {t("header.services")}
                     </Link>
                   </li>
 
@@ -114,7 +116,7 @@ const NavbarFive = () => {
                         currentPath == "/projects/" && "active"
                       }`}
                     >
-                      Projects
+                      {t("header.projects")}
                     </Link>
                   </li>
 
@@ -125,7 +127,7 @@ const NavbarFive = () => {
                         currentPath == "/contact/" && "active"
                       }`}
                     >
-                      Contact
+                      {t("header.contact")}
                     </Link>
                   </li>
 
