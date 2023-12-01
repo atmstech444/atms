@@ -1,5 +1,23 @@
 {
   "header": {
-    "about": "About us"
+    "about": "About us",
+    "services": "Services",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "footer": {
+    "design": "UX/UI Design",
+    "desktopApp": "Desktop Applications",
+    "mobileApp": "Mobile Applications",
+    "quickLinks": "Quick Links",
+    "address": "Address",
+    "address1": "Gamrekeli 19, Tbilisi, Georgia",
+    "email": "Email",
+    "email1": "business@atms.ge",
+    "phone": "Phone",
+    "phone1": "Phone: +995322040040",
+    "rights": "All Rights Reserved",
+    "policy": "Privacy Policy",
+    "terms": "Terms & Conditions"
   }
 }
