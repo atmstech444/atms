@@ -6,6 +6,20 @@
     "contact": "Contact",
     "main": "Main"
   },
+  "contact": {
+    "contact": "Contact",
+    "home": "Home",
+    "messageUs": "MESSAGE US",
+    "name": "Name",
+    "email": "Email",
+    "phoneNumber": "Phone number",
+    "subject": "Subject",
+    "message": "Write your message...",
+    "send": "Send Message",
+    "contactByPhoneEmail": "Contact us by Phone Number or Email Address",
+    "or": "or",
+    "dropUsMessage": "Drop Us Message For Any Query"
+  },
   "footer": {
     "design": "UX/UI Design",
     "desktopApp": "Desktop Applications",

@@ -4,6 +4,7 @@ import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
 const MySwal = withReactContent(Swal);
 import baseUrl from "../../utils/baseUrl";
+import { useTranslation } from "react-i18next";
 
 const alertContent = () => {
   MySwal.fire({
@@ -16,7 +17,6 @@ const alertContent = () => {
   });
 };
 
-// Form initial state
 const INITIAL_STATE = {
   name: "",
   email: "",
@@ -27,25 +27,35 @@ const INITIAL_STATE = {
 
 const ContactForm = () => {
   const [contact, setContact] = useState(INITIAL_STATE);
+  const { t } = useTranslation();
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setContact((prevState) => ({ ...prevState, [name]: value }));
-    // console.log(contact)
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const url = `${baseUrl}/api/contact`;
       const { name, email, number, subject, text } = contact;
-      const payload = { name, email, number, subject, text };
-      const response = await axios.post(url, payload);
+      const formData = new FormData();
+      formData.append("name", name);
+      formData.append("email", email);
+      formData.append("number", number);
+      formData.append("subject", subject);
+      formData.append("text", text);
+      const response = await axios.post(
+        "https://atms.ge/contact.php",
+        formData
+      );
       console.log(response);
       setContact(INITIAL_STATE);
       alertContent();
     } catch (error) {
-      console.log(error);
+      console.error(
+        "Error:",
+        error.response ? error.response.data : error.message
+      );
     }
   };
 
@@ -58,7 +68,7 @@ const ContactForm = () => {
               <input
                 type="text"
                 name="name"
-                placeholder="Name"
+                placeholder={t("contact.name")}
                 className="form-control"
                 value={contact.name}
                 onChange={handleChange}
@@ -71,7 +81,7 @@ const ContactForm = () => {
               <input
                 type="text"
                 name="email"
-                placeholder="Email"
+                placeholder={t("contact.email")}
                 className="form-control"
                 value={contact.email}
                 onChange={handleChange}
@@ -84,7 +94,7 @@ const ContactForm = () => {
               <input
                 type="text"
                 name="number"
-                placeholder="Phone number"
+                placeholder={t("contact.phoneNumber")}
                 className="form-control"
                 value={contact.number}
                 onChange={handleChange}
@@ -97,7 +107,7 @@ const ContactForm = () => {
               <input
                 type="text"
                 name="subject"
-                placeholder="Subject"
+                placeholder={t("contact.subject")}
                 className="form-control"
                 value={contact.subject}
                 onChange={handleChange}
@@ -111,7 +121,7 @@ const ContactForm = () => {
                 name="text"
                 cols="30"
                 rows="6"
-                placeholder="Write your message..."
+                placeholder={t("contact.message")}
                 className="form-control"
                 value={contact.text}
                 onChange={handleChange}
@@ -121,7 +131,7 @@ const ContactForm = () => {
           </div>
           <div className="col-lg-12 col-sm-12">
             <button type="submit" className="btn btn-primary">
-              Send Message
+              {t("contact.send")}
             </button>
           </div>
         </div>
