@@ -3,7 +3,8 @@
     "about": "About us",
     "services": "Services",
     "projects": "Projects",
-    "contact": "Contact"
+    "contact": "Contact",
+    "main": "Main"
   },
   "footer": {
     "design": "UX/UI Design",

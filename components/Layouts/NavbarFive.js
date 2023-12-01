@@ -80,9 +80,11 @@ const NavbarFive = () => {
                 <ul className="navbar-nav">
                   <li className="nav-item">
                     <Link
-                      href="#"
+                      href="/"
                       className={`nav-link ${currentPath == "/" && "active"}`}
-                    ></Link>
+                    >
+                      {t("header.main")}
+                    </Link>
                   </li>
 
                   <li className="nav-item">
