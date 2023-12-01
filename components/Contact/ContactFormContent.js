@@ -1,14 +1,17 @@
 import React from "react";
 import ContactForm from "./ContactForm";
+import { useTranslation } from "react-i18next";
 
 const ContactFormContent = () => {
+  const { t } = useTranslation();
+
   return (
     <>
       <section className="contact-area ptb-110">
         <div className="container">
           <div className="section-title">
-            <span>Message Us</span>
-            <h2>Drop us Message for any Query</h2>
+            <span>{t("contact.messageUs")}</span>
+            <h2>{t("contact.dropUsMessage")}</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -32,11 +35,11 @@ const ContactFormContent = () => {
           {/* Contact info */}
           <div className="contact-info">
             <div className="contact-info-content">
-              <h3>Contact us by Phone Number or Email Address</h3>
+              <h3>{t("contact.contactByPhoneEmail")}</h3>
               <h2>
-                <span className="number">+088 130 629 8615</span>
-                <span className="or">OR</span>
-                <span className="email">hello@bariton.com</span>
+                <span className="number">+995322040040</span>
+                <span className="or">{t("contact.or")}</span>
+                <span className="email">business@atms.ge</span>
               </h2>
 
               <ul className="social">

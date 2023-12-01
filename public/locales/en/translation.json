@@ -1,5 +1,19 @@
 {
   "header": {
     "about": "About us"
+  },
+  "contact": {
+    "contact": "Contact",
+    "home": "Home",
+    "messageUs": "MESSAGE US",
+    "name": "Name",
+    "email": "Email",
+    "phoneNumber": "Phone number",
+    "subject": "Subject",
+    "message": "Write your message...",
+    "send": "Send Message",
+    "contactByPhoneEmail": "Contact us by Phone Number or Email Address",
+    "or": "or",
+    "dropUsMessage": "Drop Us Message For Any Query"
   }
 }

@@ -9,7 +9,6 @@ import "../styles/fontawesome.min.css";
 import "react-accessible-accordion/dist/fancy-example.css";
 import "swiper/css";
 import "swiper/css/bundle";
-// Global Styles
 import "../styles/style.css";
 import "../styles/responsive.css";
 

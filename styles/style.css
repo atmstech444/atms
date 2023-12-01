@@ -6542,7 +6542,9 @@ Main Banner Area CSS
 .home-slides .swiper-button-prev {
   color: #ff4800;
 }
-
+.language {
+  margin-left: 10px;
+}
 .startup-banner-area {
   padding-left: 30px;
   padding-right: 30px;

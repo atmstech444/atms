@@ -130,10 +130,9 @@ const NavbarFive = () => {
                   </li>
 
                   <li
-                    className="nav-item"
+                    className="nav-item language"
                     style={{
                       cursor: "pointer",
-                      paddingLeft: "10px",
                     }}
                     onClick={() => {
                       setSelectedLanguage(
