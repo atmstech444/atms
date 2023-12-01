@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import Link from "next/link";
 
 const Footer = () => {
@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-3 col-md-6 col-sm-6">
-              <div 
+              <div
                 className="single-footer-widget"
                 data-aos="fade-in"
                 data-aos-duration="1200"
@@ -52,7 +52,7 @@ const Footer = () => {
             </div>
 
             <div className="col-lg-3 col-md-6 col-sm-6">
-              <div 
+              <div
                 className="single-footer-widget"
                 data-aos="fade-in"
                 data-aos-duration="1200"
@@ -81,7 +81,7 @@ const Footer = () => {
             </div>
 
             <div className="col-lg-3 col-md-6 col-sm-6">
-              <div 
+              <div
                 className="single-footer-widget"
                 data-aos="fade-in"
                 data-aos-duration="1200"
@@ -110,7 +110,7 @@ const Footer = () => {
             </div>
 
             <div className="col-lg-3 col-md-6 col-sm-6">
-              <div 
+              <div
                 className="single-footer-widget"
                 data-aos="fade-in"
                 data-aos-duration="1200"

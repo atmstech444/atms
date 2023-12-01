@@ -1,12 +1,15 @@
+"use client";
 import React, { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import Link from "next/link";
+import { useTranslation } from "react-i18next";
 
 const NavbarFive = () => {
-  // Add active class
   const [currentPath, setCurrentPath] = useState("");
   const router = useRouter();
-  // console.log(router.asPath)
+  const [selectedLanguage, setSelectedLanguage] = useState("ka");
+  const { t } = useTranslation();
+  const { i18n } = useTranslation();
 
   useEffect(() => {
     setCurrentPath(router.asPath);
@@ -27,6 +30,10 @@ const NavbarFive = () => {
     });
   });
 
+  useEffect(() => {
+    i18n.changeLanguage(selectedLanguage);
+    console.log(selectedLanguage);
+  }, [selectedLanguage]);
   const classOne = menu
     ? "collapse navbar-collapse mean-menu"
     : "collapse navbar-collapse show";
@@ -75,9 +82,7 @@ const NavbarFive = () => {
                     <Link
                       href="#"
                       className={`nav-link ${currentPath == "/" && "active"}`}
-                    >
-                      Home
-                    </Link>
+                    ></Link>
                   </li>
 
                   <li className="nav-item">
@@ -87,7 +92,7 @@ const NavbarFive = () => {
                         currentPath == "/about/" && "active"
                       }`}
                     >
-                      About Us
+                      {t("header.about")}
                     </Link>
                   </li>
 
@@ -123,22 +128,33 @@ const NavbarFive = () => {
                       Contact
                     </Link>
                   </li>
+
+                  <li
+                    className="nav-item"
+                    style={{
+                      cursor: "pointer",
+                      paddingLeft: "10px",
+                    }}
+                    onClick={() => {
+                      setSelectedLanguage(
+                        selectedLanguage === "en" ? "ka" : "en"
+                      );
+                    }}
+                  >
+                    <img
+                      style={{ verticalAlign: "bottom" }}
+                      className="dropdownImage"
+                      src={`${
+                        selectedLanguage === "en"
+                          ? "/images/geo.png"
+                          : "/images/eng.png"
+                      }`}
+                    />
+                    <a style={{ marginLeft: "2px" }}>
+                      {selectedLanguage === "en" ? "ka" : "en"}
+                    </a>
+                  </li>
                 </ul>
-
-                {/* others-options */}
-                {/* <div className="others-options">
-                  <Link href="/cart" className="cart-btn">
-                    <i className="flaticon-commerce-and-shopping"></i>
-                    <span>1</span>
-                  </Link>
-
-                  <div className="option-item">
-                    <i
-                      className="search-btn flaticon-search"
-                      onClick={handleToggleSearchModal}
-                    ></i>
-                  </div>
-                </div> */}
               </div>
             </nav>
           </div>

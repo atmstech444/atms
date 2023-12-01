@@ -5,6 +5,7 @@ import Link from "next/link";
 const Navbar = () => {
   // Add active class
   const [currentPath, setCurrentPath] = useState("");
+
   const router = useRouter();
   // console.log(router.asPath)
 

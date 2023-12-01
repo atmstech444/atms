@@ -17,15 +17,6 @@ const MainBanner = () => {
                 Eventually, chatbot ideas bring a pleasant experience of all
                 these qualities into the conversation.
               </p>
-
-              <div className="btn-box">
-                <Link href="#" className="btn btn-primary">
-                  Schedule a Demo
-                </Link>
-                <Link href="/contact" className="optional-btn">
-                  Get Started Free
-                </Link>
-              </div>
             </div>
           </div>
         </div>
