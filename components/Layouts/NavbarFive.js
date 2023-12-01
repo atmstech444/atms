@@ -103,7 +103,7 @@ const NavbarFive = () => {
                         currentPath == "/services/" && "active"
                       }`}
                     >
-                      Services
+                      {t("header.services")}
                     </Link>
                   </li>
 
@@ -114,7 +114,7 @@ const NavbarFive = () => {
                         currentPath == "/projects/" && "active"
                       }`}
                     >
-                      Projects
+                      {t("header.projects")}
                     </Link>
                   </li>
 
@@ -125,7 +125,7 @@ const NavbarFive = () => {
                         currentPath == "/contact/" && "active"
                       }`}
                     >
-                      Contact
+                      {t("header.contact")}
                     </Link>
                   </li>
 
