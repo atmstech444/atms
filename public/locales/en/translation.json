@@ -55,6 +55,20 @@
     "quality": "Quality Assurance",
     "quality1": "Our commitment to excellence extends beyond the development phase. Rigorous testing and quality assurance processes ensure that your website, admin panel, or logo functions seamlessly and flawlessly.",
     "customer": "Customer Satisfaction",
+    "customer1": "Your success is our success. We take pride in building long-lasting relationships with our clients, providing ongoing support and adapting to your evolving needs."
+  },
+  "services": {
+    "back": "Back-End Development",
+    "front": "Front-End Development",
+    "mobile": "Mobile Development",
+    "design": "Product Design",
+    "manage": "Managed Delivery",
+    "data": "Data & Infastructure",
+    "marketing": "Marketing services",
+    "digital": "Digital Marketing",
+    "content": "Content Production",
+    "marketdesign": "Design",
+  "offer": "We Offer Professional Solutions",
     "customer1": "Your success is our success. We take pride in building long-lasting relationships with our clients, providing ongoing support and adapting to your evolving needs.",
     "readMore": "Read More",
     "whyChooseUs": "Why Choose Us",
@@ -62,7 +76,5 @@
     "teem": "Meet Our Team",
     "partner": "Featured Partners"
   },
-  "services": {
-    "offer": "We Offer Professional Solutions"
-  }
+ 
 }
