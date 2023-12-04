@@ -1,21 +1,19 @@
 import React from "react";
 import Link from "next/link";
+import { useTranslation } from "react-i18next";
 
 const Services = () => {
+  const { t } = useTranslation();
   return (
     <>
       <section className="services-area bg-f2f6f9 ptb-110">
         <div className="container">
           <div className="section-title">
-            <h2>We Offer Professional Solutions</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
+            <h2>{t("aboutUs.whatwedo")}</h2>
           </div>
 
           <div className="row justify-content-center">
-            <div 
+            <div
               className="col-lg-4 col-sm-6"
               data-aos="fade-in"
               data-aos-duration="1200"
@@ -27,16 +25,13 @@ const Services = () => {
                 </div>
 
                 <h3>
-                  <Link href="/service-details">Data Analysts</Link>
+                  <Link href="/service-details">{t("aboutUs.website")}</Link>
                 </h3>
-                <p>
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
-                </p>
+                <p>{t("aboutUs.website1")}</p>
               </div>
             </div>
 
-            <div 
+            <div
               className="col-lg-4 col-sm-6"
               data-aos="fade-in"
               data-aos-duration="1200"
@@ -48,16 +43,13 @@ const Services = () => {
                 </div>
 
                 <h3>
-                  <Link href="/service-details">Automatic Optimization</Link>
+                  <Link href="/service-details">{t("aboutUs.adminpanel")}</Link>
                 </h3>
-                <p>
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
-                </p>
+                <p>{t("aboutUs.adminpanel1")}</p>
               </div>
             </div>
 
-            <div 
+            <div
               className="col-lg-4 col-sm-6"
               data-aos="fade-in"
               data-aos-duration="1200"
@@ -69,77 +61,9 @@ const Services = () => {
                 </div>
 
                 <h3>
-                  <Link href="/service-details">Security & Surveillance</Link>
+                  <Link href="/service-details">{t("aboutUs.logos")}</Link>
                 </h3>
-                <p>
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
-                </p>
-              </div>
-            </div>
-
-            <div 
-              className="col-lg-4 col-sm-6"
-              data-aos="fade-in"
-              data-aos-duration="1200"
-              data-aos-delay="400"
-            >
-              <div className="single-services-box">
-                <div className="icon">
-                  <i className="flaticon-molecular"></i>
-                </div>
-
-                <h3>
-                  <Link href="/service-details">
-                    Healthcare & Manufacturing
-                  </Link>
-                </h3>
-                <p>
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
-                </p>
-              </div>
-            </div>
-
-            <div 
-              className="col-lg-4 col-sm-6"
-              data-aos="fade-in"
-              data-aos-duration="1200"
-              data-aos-delay="500"
-            >
-              <div className="single-services-box">
-                <div className="icon">
-                  <i className="flaticon-gear"></i>
-                </div>
-
-                <h3>
-                  <Link href="/service-details">Software Engineers</Link>
-                </h3>
-                <p>
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
-                </p>
-              </div>
-            </div>
-
-            <div 
-              className="col-lg-4 col-sm-6"
-              data-aos="fade-in"
-              data-aos-duration="1200"
-              data-aos-delay="600"
-            >
-              <div className="single-services-box">
-                <div className="icon">
-                  <i className="flaticon-ceo"></i>
-                </div>
-
-                <h3>
-                  <Link href="/service-details">IT Professionals</Link>
-                </h3>
-                <p>
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
-                </p>
+                <p>{t("aboutUs.logos1")}</p>
               </div>
             </div>
           </div>
