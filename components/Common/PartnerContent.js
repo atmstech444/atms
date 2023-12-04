@@ -1,20 +1,19 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const PartnerContent = () => {
+  const { t } = useTranslation();
+
   return (
     <>
       <div className="partner-area ptb-110 bg-f2f6f9">
         <div className="container">
           <div className="section-title">
-            <h2>Featured Customers & Partners</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
+            <h2>{t("aboutUs.partner")}</h2>
           </div>
 
           <div className="customers-partner-list">
-            <div 
+            <div
               className="partner-item"
               data-aos="fade-in"
               data-aos-duration="1200"
@@ -25,7 +24,7 @@ const PartnerContent = () => {
               </a>
             </div>
 
-            <div 
+            <div
               className="partner-item"
               data-aos="fade-in"
               data-aos-duration="1200"
@@ -36,7 +35,7 @@ const PartnerContent = () => {
               </a>
             </div>
 
-            <div 
+            <div
               className="partner-item"
               data-aos="fade-in"
               data-aos-duration="1200"
@@ -47,7 +46,7 @@ const PartnerContent = () => {
               </a>
             </div>
 
-            <div 
+            <div
               className="partner-item"
               data-aos="fade-in"
               data-aos-duration="1200"
@@ -58,7 +57,7 @@ const PartnerContent = () => {
               </a>
             </div>
 
-            <div 
+            <div
               className="partner-item"
               data-aos="fade-in"
               data-aos-duration="1200"
@@ -69,7 +68,7 @@ const PartnerContent = () => {
               </a>
             </div>
 
-            <div 
+            <div
               className="partner-item"
               data-aos="fade-in"
               data-aos-duration="1200"
@@ -80,7 +79,7 @@ const PartnerContent = () => {
               </a>
             </div>
 
-            <div 
+            <div
               className="partner-item"
               data-aos="fade-in"
               data-aos-duration="1200"
@@ -91,7 +90,7 @@ const PartnerContent = () => {
               </a>
             </div>
 
-            <div 
+            <div
               className="partner-item"
               data-aos="fade-in"
               data-aos-duration="1200"
@@ -102,7 +101,7 @@ const PartnerContent = () => {
               </a>
             </div>
 
-            <div 
+            <div
               className="partner-item"
               data-aos="fade-in"
               data-aos-duration="1200"

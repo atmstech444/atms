@@ -1,14 +1,17 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper";
+import { useTranslation } from "react-i18next";
 
 const PartnerSlider = () => {
+  const { t } = useTranslation();
+
   return (
     <>
       <div className="partner-section ptb-110">
         <div className="container">
           <div className="section-title">
-            <h2>Our Valuable Branding Partner</h2>
+            <h2>{t("aboutUs.partner")}</h2>
           </div>
 
           <Swiper
