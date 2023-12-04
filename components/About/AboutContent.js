@@ -17,12 +17,12 @@ const AboutContact = () => {
               <div className="about-content">
                 <h2>{t("aboutUs.title")}</h2>
                 <p>{t("aboutUs.descrp")}</p>
-                <h4 className="mt-4">{t("aboutUs.who")}:</h4>
+                <h4 className="mt-4">{t("aboutUs.who")}</h4>
                 <p>{t("aboutUs.who1")}</p>
               </div>
             </div>
           </div>
-          <h2 className="mt-5 text">{t("aboutUs.whyus")}:</h2>
+          <h2 className="mt-5 text">{t("aboutUs.whyus")}</h2>
           <div className="about-inner-area">
             <div className="row row-cols-1 row-cols-sm-4">
               <div className="col-lg-3 col-md-6 col-sm-6">

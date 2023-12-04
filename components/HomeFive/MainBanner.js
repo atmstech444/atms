@@ -1,22 +1,18 @@
 import React from "react";
 import Link from "next/link";
+import { useTranslation } from "react-i18next";
 
 const MainBanner = () => {
+  const { t } = useTranslation();
+
   return (
     <>
       <div className="startup-banner-area">
         <div className="startup-banner-inner">
           <div className="container">
             <div className="startup-banner-content">
-              <h1>
-                World’s Leading <br /> Machine Learning Company
-              </h1>
-              <p>
-                ML today are able to supply needful of help, information, and
-                positive experience of maintaining intimacy with customers.
-                Eventually, chatbot ideas bring a pleasant experience of all
-                these qualities into the conversation.
-              </p>
+              <h2>{t("aboutUs.title")}</h2>
+              <p>{t("aboutUs.descrp")}</p>
             </div>
           </div>
         </div>

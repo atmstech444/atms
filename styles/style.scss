@@ -1958,10 +1958,7 @@ Services Area CSS
     transform: translateY(-10px);
     box-shadow: 0 0 40px 3px rgba(0, 0, 0, 0.05);
 
-    .icon {
-      background-color: $main-color;
-      color: $white-color;
-    }
+    
     &::before {
       width: 100%;
       height: 4px;

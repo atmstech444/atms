@@ -19,9 +19,9 @@ const Services = () => {
               data-aos-duration="1200"
               data-aos-delay="100"
             >
-              <div className="single-services-box">
-                <div className="icon">
-                  <i className="flaticon-income"></i>
+              <div className="single-services-box about-box">
+                <div className="icon ">
+                  <img className="icon-image" src="/images/icons/browser.png" />
                 </div>
 
                 <h3>
@@ -37,9 +37,12 @@ const Services = () => {
               data-aos-duration="1200"
               data-aos-delay="200"
             >
-              <div className="single-services-box">
-                <div className="icon">
-                  <i className="flaticon-automatic"></i>
+              <div className="single-services-box about-box">
+                <div className="icon ">
+                  <img
+                    className="icon-image"
+                    src="/images/icons/admin-alt.png"
+                  />
                 </div>
 
                 <h3>
@@ -55,9 +58,12 @@ const Services = () => {
               data-aos-duration="1200"
               data-aos-delay="300"
             >
-              <div className="single-services-box">
-                <div className="icon">
-                  <i className="flaticon-locked"></i>
+              <div className="single-services-box about-box">
+                <div className="icon ">
+                  <img
+                    className="icon-image"
+                    src="/images/icons/paintbrush-pencil.png"
+                  />
                 </div>
 
                 <h3>

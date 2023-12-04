@@ -1,17 +1,16 @@
 import React from "react";
 import Link from "next/link";
+import { useTranslation } from "react-i18next";
 
 const ProfessionalSolutions = () => {
+  const { t } = useTranslation();
+
   return (
     <>
       <div className="solutions-area ptb-110">
         <div className="container">
           <div className="section-title">
-            <h2>We Offer Professional Solutions</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
+            <h2>{t("services.offer")}</h2>
           </div>
 
           <div className="row">
