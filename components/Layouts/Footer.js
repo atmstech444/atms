@@ -21,11 +21,6 @@ const Footer = () => {
                   <Link href="/">
                     <img src="/images/white-logo.png" alt="image" />
                   </Link>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud.
-                  </p>
                 </div>
 
                 <ul className="social">

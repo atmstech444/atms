@@ -1,5 +1,8 @@
 /* Max width 767px */
 @media only screen and (max-width: 767px) {
+  .about-box {
+    height: 400px;
+  }
   .language {
     margin-left: 0px;
   }
@@ -151,6 +154,9 @@
     display: inline-block;
     width: 60px;
     height: 60px;
+  }
+  .icon2 {
+    margin-top: 15px;
   }
   .single-services-box .icon i {
     line-height: 60px;
@@ -1698,6 +1704,9 @@
 }
 /* Min width 576px to Max width 767px */
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+  .about-box {
+    height: 550px;
+  }
   .main-banner {
     padding-bottom: 0;
   }
@@ -2604,6 +2613,9 @@
 }
 /* Min width 992px to Max width 1199px */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .about-box {
+    height: 500px;
+  }
   .main-nav .navbar .navbar-nav .nav-item a {
     font-size: 17px;
   }
@@ -2766,6 +2778,7 @@
   }
   .single-main-services-box {
     padding: 25px 20px;
+    height: 500px;
   }
   .single-main-services-box h3 {
     font-size: 21px;
@@ -2829,6 +2842,9 @@
 }
 /* Min width 1550px */
 @media only screen and (min-width: 1550px) {
+  .about-box {
+    height: 570px;
+  }
   .main-banner {
     height: 100vh;
   }
@@ -2883,6 +2899,9 @@
   /*End "Home Demo - 6", "Home Demo - 7" & "Home Demo - 8" Responsive*/
 }
 @media only screen and (min-device-width: 1200px) and (max-device-width: 1399px) {
+  .single-main-services-box {
+    height: 450px;
+  }
   .webinar-content {
     max-width: 555px;
   }
@@ -2906,6 +2925,12 @@
   /*End "Home Demo - 6", "Home Demo - 7" & "Home Demo - 8" Responsive*/
 }
 @media only screen and (min-width: 1920px) {
+  .about-box {
+    height: 450px;
+  }
+  .single-main-services-box {
+    height: 400px;
+  }
   .topbar-wrap-area .container-fluid {
     max-width: 1920px;
   }

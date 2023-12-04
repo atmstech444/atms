@@ -1,20 +1,19 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const Team = () => {
+  const { t } = useTranslation();
+
   return (
     <>
       <section className="team-area ptb-110">
         <div className="container">
           <div className="section-title">
-            <h2>Meet Our Team</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
+            <h2>{t("aboutUs.teem")}</h2>
           </div>
 
           <div className="row justify-content-center">
-            <div 
+            <div
               className="col-lg-3 col-sm-6"
               data-aos="fade-in"
               data-aos-duration="1200"
@@ -58,7 +57,7 @@ const Team = () => {
               </div>
             </div>
 
-            <div 
+            <div
               className="col-lg-3 col-sm-6"
               data-aos="fade-in"
               data-aos-duration="1200"
@@ -102,7 +101,7 @@ const Team = () => {
               </div>
             </div>
 
-            <div 
+            <div
               className="col-lg-3 col-sm-6"
               data-aos="fade-in"
               data-aos-duration="1200"
@@ -146,7 +145,7 @@ const Team = () => {
               </div>
             </div>
 
-            <div 
+            <div
               className="col-lg-3 col-sm-6"
               data-aos="fade-in"
               data-aos-duration="1200"
