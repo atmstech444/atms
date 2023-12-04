@@ -6,8 +6,6 @@ import Footer from "../components/Layouts/Footer";
 const TermsConditions = () => {
   return (
     <>
-      <NavbarTwo />
-
       <PageBanner
         pageTitle="Terms & Conditions"
         homePageUrl="/"
@@ -107,8 +105,6 @@ const TermsConditions = () => {
           </p>
         </div>
       </div>
-
-      <Footer />
     </>
   );
 };
