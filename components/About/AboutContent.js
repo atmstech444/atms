@@ -1,6 +1,7 @@
 import React from "react";
-
+import { useTranslation } from "react-i18next";
 const AboutContact = () => {
+  const { t } = useTranslation();
   return (
     <>
       <section className="about-area ptb-110">
@@ -14,62 +15,45 @@ const AboutContact = () => {
             </div>
             <div className="col-lg-6 col-md-12">
               <div className="about-content">
-                <h2>Engaging New Audiences Through Smart Approach</h2>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo.
-                </p>
-                <p>
-                  There are many variations of passages of Lorem Ipsum
-                  available, but the majority have suffered alteration in some
-                  form, by injected humour, or randomised words which don't look
-                  even slightly believable. If you are going to use a passage of
-                  Lorem Ipsum, you need to be sure there isn't anything.
-                </p>
+                <h2>{t("aboutUs.title")}</h2>
+                <p>{t("aboutUs.descrp")}</p>
+                <h4 className="mt-4">{t("aboutUs.who")}:</h4>
+                <p>{t("aboutUs.who1")}</p>
               </div>
             </div>
           </div>
-
+          <h2 className="mt-5 text">{t("aboutUs.whyus")}:</h2>
           <div className="about-inner-area">
-            <div className="row">
-              <div className="col-lg-4 col-md-6 col-sm-6">
+            <div className="row row-cols-1 row-cols-sm-4">
+              <div className="col-lg-3 col-md-6 col-sm-6">
                 <div className="about-text">
-                  <h3>Our History</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, con se ctetur adipiscing elit.
-                    In sagittis eg esta ante, sed viverra nunc tinci dunt nec
-                    elei fend et tiram.
-                  </p>
+                  <h3>{t("aboutUs.innovation")}</h3>
+                  <p>{t("aboutUs.innovation1")}</p>
                 </div>
               </div>
 
-              <div className="col-lg-4 col-md-6 col-sm-6">
+              <div className="col-lg-3 col-md-6 col-sm-6">
                 <div className="about-text">
-                  <h3>Our Mission</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, con se ctetur adipiscing elit.
-                    In sagittis eg esta ante, sed viverra nunc tinci dunt nec
-                    elei fend et tiram.
-                  </p>
+                  <h3>{t("aboutUs.collaboration")}</h3>
+                  <p>{t("aboutUs.collaboration1")}</p>
                 </div>
               </div>
 
-              <div className="col-lg-4 col-md-6 col-sm-6 offset-lg-0 offset-md-3 offset-sm-3">
+              <div className="col-lg-3 col-md-6 col-sm-6 offset-lg-0 offset-md-3 offset-sm-3">
                 <div className="about-text">
-                  <h3>Who we are</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, con se ctetur adipiscing elit.
-                    In sagittis eg esta ante, sed viverra nunc tinci dunt nec
-                    elei fend et tiram.
-                  </p>
+                  <h3>{t("aboutUs.quality")}</h3>
+                  <p>{t("aboutUs.quality1")}</p>
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-6 col-sm-6 offset-lg-0 offset-md-3 offset-sm-3">
+                <div className="about-text">
+                  <h3>{t("aboutUs.customer")}</h3>
+                  <p>{t("aboutUs.customer1")}</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
         {/* Shape Images */}
         <div className="shape-img1">
           <img src="/images/shape/shape1.png" alt="image" />

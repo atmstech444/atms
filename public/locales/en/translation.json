@@ -34,5 +34,27 @@
     "rights": "All Rights Reserved",
     "policy": "Privacy Policy",
     "terms": "Terms & Conditions"
+  },
+  "aboutUs": {
+    "title": "Welcome to Alternative Trading and Management Systems (ATMS)",
+    "descrp": "Welcome to Alternative Trading and Management Systems (ATMS), where innovation meets creativity in the digital realm. We are a dynamic team of professionals dedicated to transforming your online presence into a captivating and functional experience.",
+    "who": "Who we are",
+    "who1": "At ATMS, we are not just developers and designers; we are architects of digital dreams. Our passion lies in crafting unique and user-friendly websites, cutting-edge admin panels, and eye-catching logos that leave a lasting impression.",
+    "whatwedo": "What we do",
+    "website": "Creating websites",
+    "website1": "We specialize in bringing your ideas to life through expertly crafted websites. Whether you're launching a brand, promoting a product, or establishing an online presence, our team ensures your website is not just a platform but a digital masterpiece.",
+    "adminpanel": "Creating admin panels",
+    "adminpanel1": "Efficiency is key in today's fast-paced digital landscape. Our custom admin panels are designed with your specific needs in mind, streamlining processes and providing an intuitive interface for seamless management.",
+    "logos": "Creating Logos and Design",
+    "logos1": "Your brand deserves to stand out in a crowded digital space. Our talented designers blend artistry with strategy to create logos and website designs that resonate with your target audience, leaving a lasting impression and fostering brand loyalty.",
+    "whyus": "Why us",
+    "innovation": "Innovation",
+    "innovation1": "We thrive on staying ahead of the curve. Our team constantly explores new technologies and design trends to ensure your digital presence is not only current but also future-proof.",
+    "collaboration": "Collaboration",
+    "collaboration1": "Your vision is our inspiration. We believe in a collaborative approach, working closely with you to understand your goals and deliver a product that exceeds your expectations.",
+    "quality": "Quality Assurance",
+    "quality1": "Our commitment to excellence extends beyond the development phase. Rigorous testing and quality assurance processes ensure that your website, admin panel, or logo functions seamlessly and flawlessly.",
+    "customer": "Customer Satisfaction",
+    "customer1": "Your success is our success. We take pride in building long-lasting relationships with our clients, providing ongoing support and adapting to your evolving needs."
   }
 }

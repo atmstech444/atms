@@ -7,15 +7,17 @@ import PartnerContent from "../components/Common/PartnerContent";
 import FeedbackSlider from "../components/Common/FeedbackSlider";
 import PricingCard from "../components/Common/PricingCard";
 import FreeTrialForm from "../components/Common/FreeTrialForm";
+import { useTranslation } from "react-i18next";
 
 const About = () => {
+  const { t } = useTranslation();
   return (
     <>
       <PageBanner
-        pageTitle="About Us"
+        pageTitle={t("header.about")}
         homePageUrl="/"
-        homePageText="Home"
-        activePageText="About Us"
+        homePageText={t("header.main")}
+        activePageText={t("header.about")}
         bgImgClass="item-bg1"
       />
 
@@ -29,9 +31,10 @@ const About = () => {
 
       <FeedbackSlider />
 
-      <PricingCard />
+      {/*<PricingCard />
 
       <FreeTrialForm />
+  */}
     </>
   );
 };

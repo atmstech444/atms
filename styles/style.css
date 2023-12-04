@@ -2399,7 +2399,7 @@ About Area CSS
 .about-text h3 {
   margin-bottom: 0;
   text-transform: capitalize;
-  font-size: 23px;
+  font-size: 20px;
   font-weight: 700;
 }
 .about-text p {
@@ -2613,6 +2613,7 @@ Services Area CSS
   padding: 30px 25px;
   transition: 0.5s;
   position: relative;
+  height: 400px;
 }
 .single-services-box .icon {
   margin-bottom: 20px;
