@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 import { useTranslation } from "react-i18next";
 
 const ServicesContent = () => {
@@ -15,9 +14,7 @@ const ServicesContent = () => {
                   <img src="/images/back.png" />
                 </div>
 
-                <h3>
-                  <Link href="/service-details">{t("services.back")}</Link>
-                </h3>
+                <h3>{t("services.back")}</h3>
                 <p>.Net, Python, PHP, Node</p>
               </div>
             </div>
@@ -28,9 +25,7 @@ const ServicesContent = () => {
                   <img src="/images/front.png" />
                 </div>
 
-                <h3>
-                  <Link href="/service-details">{t("services.front")}</Link>
-                </h3>
+                <h3>{t("services.front")}</h3>
                 <p>Mark Up, React, Nextjs,</p>
               </div>
             </div>
@@ -41,9 +36,7 @@ const ServicesContent = () => {
                   <img src="/images/mobile.png" />
                 </div>
 
-                <h3>
-                  <Link href="/service-details">{t("services.mobile")}</Link>
-                </h3>
+                <h3>{t("services.mobile")}</h3>
                 <p>Android, iOS, React Native, .NET Maui</p>
               </div>
             </div>
@@ -54,9 +47,7 @@ const ServicesContent = () => {
                   <img src="/images/designer.png" />
                 </div>
 
-                <h3>
-                  <Link href="/service-details">{t("services.design")}</Link>
-                </h3>
+                <h3>{t("services.design")}</h3>
                 <p>UX Design, UI Design, Graphic Design</p>
               </div>
             </div>
@@ -67,9 +58,7 @@ const ServicesContent = () => {
                   <img src="/images/delivery.png" />
                 </div>
 
-                <h3>
-                  <Link href="/service-details">{t("services.manage")}</Link>
-                </h3>
+                <h3>{t("services.manage")}</h3>
                 <p>
                   Agile Project Management · Product Management · Cloud
                   Application Development · CI/CD
@@ -83,9 +72,7 @@ const ServicesContent = () => {
                   <img src="/images/sistem.png" />
                 </div>
 
-                <h3>
-                  <Link href="/service-details">{t("services.data")}</Link>
-                </h3>
+                <h3>{t("services.data")}</h3>
                 <p>Linux · SysAdmin · DevOps / Cloud Services</p>
               </div>
             </div>
@@ -96,9 +83,7 @@ const ServicesContent = () => {
                   <i className="fas fa-database"></i>
                 </div>
 
-                <h3>
-                  <Link href="/service-details">{t("services.digital")}</Link>
-                </h3>
+                <h3>{t("services.digital")}</h3>
                 <p>
                   Social Media Advertising · PPC Campaigns · Search Engine
                   Optimisation
@@ -112,9 +97,7 @@ const ServicesContent = () => {
                   <i className="fas fa-chart-line"></i>
                 </div>
 
-                <h3>
-                  <Link href="/service-details">{t("services.content")}</Link>
-                </h3>
+                <h3>{t("services.content")}</h3>
                 <p>Video Production · Campaign Creation · Creative</p>
               </div>
             </div>
@@ -125,11 +108,7 @@ const ServicesContent = () => {
                   <i className="fas fa-project-diagram"></i>
                 </div>
 
-                <h3>
-                  <Link href="/service-details">
-                    {t("services.marketdesign")}
-                  </Link>
-                </h3>
+                <h3>{t("services.marketdesign")}</h3>
                 <p>
                   Branding & Art Direction · Motion Design · Illustration ·
                   Graphic Design
