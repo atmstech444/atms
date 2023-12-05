@@ -68,13 +68,13 @@
     "digital": "Digital Marketing",
     "content": "Content Production",
     "marketdesign": "Design",
-  "offer": "We Offer Professional Solutions",
+    "offer": "We Offer Professional Solutions",
     "customer1": "Your success is our success. We take pride in building long-lasting relationships with our clients, providing ongoing support and adapting to your evolving needs.",
     "readMore": "Read More",
     "whyChooseUs": "Why Choose Us",
     "moreAboutUs": "More About Us",
     "teem": "Meet Our Team",
-    "partner": "Featured Partners"
-  },
- 
+    "partner": "Featured Partners",
+    "more": "See More"
+  }
 }

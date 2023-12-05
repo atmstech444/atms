@@ -6,8 +6,6 @@ import Footer from "../components/Layouts/Footer";
 const PrivacyPolicy = () => {
   return (
     <>
-      <NavbarTwo />
-
       <PageBanner
         pageTitle="Privacy Policy"
         homePageUrl="/"
@@ -107,8 +105,6 @@ const PrivacyPolicy = () => {
           </p>
         </div>
       </div>
-
-      <Footer />
     </>
   );
 };

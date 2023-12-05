@@ -18,7 +18,7 @@ const WhyChooseUs = () => {
 
             <div className="col-lg-6 col-md-12">
               <div className="why-choose-us-content">
-                <h2>{t("aboutUs.whyChooseUs")}</h2>
+                <h2>{t("services.whyChooseUs")}</h2>
                 <div className="row">
                   <div className="col-lg-6 col-md-6 col-sm-6">
                     <div className="single-why-choose-us-box">
@@ -50,7 +50,7 @@ const WhyChooseUs = () => {
                 </div>
 
                 <Link href="/about" className="btn btn-primary">
-                  {t("aboutUs.moreAboutUs")}
+                  {t("services.moreAboutUs")}
                 </Link>
               </div>
             </div>
