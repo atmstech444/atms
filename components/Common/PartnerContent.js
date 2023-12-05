@@ -9,7 +9,7 @@ const PartnerContent = () => {
       <div className="partner-area ptb-110 bg-f2f6f9">
         <div className="container">
           <div className="section-title">
-            <h2>{t("aboutUs.partner")}</h2>
+            <h2>{t("services.partner")}</h2>
           </div>
 
           <div className="customers-partner-list">
