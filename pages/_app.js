@@ -30,7 +30,7 @@ function MyApp({ Component, pageProps }) {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
-        <title>Bariton - IT Machine Learning React Next Template</title>
+        <title>ალტერნატიული ვაჭრობის და მართვის სისტემები</title>
       </Head>
       <I18nextProvider i18n={i18n}>
         <NavbarFive />

@@ -11,7 +11,7 @@ const PartnerSlider = () => {
       <div className="partner-section ptb-110">
         <div className="container">
           <div className="section-title">
-            <h2>{t("aboutUs.partner")}</h2>
+            <h2>{t("services.partner")}</h2>
           </div>
 
           <Swiper

@@ -11,7 +11,7 @@ const ServicesContent = () => {
             <div className="col-lg-4 col-sm-6">
               <div className="single-services-box" style={{ height: "250px" }}>
                 <div className="icon">
-                  <i className="flaticon-income"></i>
+                  <img src="/images/back.png" />
                 </div>
 
                 <h3>{t("services.back")}</h3>
@@ -22,7 +22,7 @@ const ServicesContent = () => {
             <div className="col-lg-4 col-sm-6">
               <div className="single-services-box" style={{ height: "250px" }}>
                 <div className="icon">
-                  <i className="flaticon-automatic"></i>
+                  <img src="/images/front.png" />
                 </div>
 
                 <h3>{t("services.front")}</h3>
@@ -33,7 +33,7 @@ const ServicesContent = () => {
             <div className="col-lg-4 col-sm-6">
               <div className="single-services-box" style={{ height: "250px" }}>
                 <div className="icon">
-                  <i className="flaticon-locked"></i>
+                  <img src="/images/mobile.png" />
                 </div>
 
                 <h3>{t("services.mobile")}</h3>
@@ -44,7 +44,7 @@ const ServicesContent = () => {
             <div className="col-lg-4 col-sm-6">
               <div className="single-services-box" style={{ height: "250px" }}>
                 <div className="icon">
-                  <i className="flaticon-molecular"></i>
+                  <img src="/images/designer.png" />
                 </div>
 
                 <h3>{t("services.design")}</h3>
@@ -55,7 +55,7 @@ const ServicesContent = () => {
             <div className="col-lg-4 col-sm-6">
               <div className="single-services-box" style={{ height: "250px" }}>
                 <div className="icon">
-                  <i className="flaticon-gear"></i>
+                  <img src="/images/delivery.png" />
                 </div>
 
                 <h3>{t("services.manage")}</h3>
@@ -69,7 +69,7 @@ const ServicesContent = () => {
             <div className="col-lg-4 col-sm-6">
               <div className="single-services-box" style={{ height: "250px" }}>
                 <div className="icon">
-                  <i className="flaticon-ceo"></i>
+                  <img src="/images/sistem.png" />
                 </div>
 
                 <h3>{t("services.data")}</h3>
@@ -113,35 +113,6 @@ const ServicesContent = () => {
                   Branding & Art Direction · Motion Design · Illustration ·
                   Graphic Design
                 </p>
-              </div>
-            </div>
-
-            {/* Pagination */}
-            <div className="col-lg-12 col-sm-12">
-              <div className="pagination-area">
-                <a href="#" className="prev page-numbers">
-                  <i className="fas fa-angle-double-left"></i>
-                </a>
-
-                <a href="#" className="page-numbers">
-                  1
-                </a>
-
-                <a href="#" className="page-numbers current">
-                  2
-                </a>
-
-                <a href="#" className="page-numbers">
-                  3
-                </a>
-
-                <a href="#" className="page-numbers">
-                  4
-                </a>
-
-                <a href="#" className="next page-numbers">
-                  <i className="fas fa-angle-double-right"></i>
-                </a>
               </div>
             </div>
           </div>
