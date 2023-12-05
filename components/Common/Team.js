@@ -9,7 +9,7 @@ const Team = () => {
       <section className="team-area ptb-110">
         <div className="container">
           <div className="section-title">
-            <h2>{t("aboutUs.teem")}</h2>
+            <h2>{t("services.teem")}</h2>
           </div>
 
           <div className="row justify-content-center">
