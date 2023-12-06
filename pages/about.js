@@ -29,9 +29,8 @@ const About = () => {
 
       <PartnerContent />
 
-      <FeedbackSlider />
-
       {/*<PricingCard />
+       <FeedbackSlider />
 
       <FreeTrialForm />
   */}

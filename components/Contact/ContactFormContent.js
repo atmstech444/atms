@@ -10,12 +10,7 @@ const ContactFormContent = () => {
       <section className="contact-area ptb-110">
         <div className="container">
           <div className="section-title">
-            <span>{t("contact.messageUs")}</span>
             <h2>{t("contact.dropUsMessage")}</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
           </div>
 
           <div className="contact-form">
@@ -35,7 +30,6 @@ const ContactFormContent = () => {
           {/* Contact info */}
           <div className="contact-info">
             <div className="contact-info-content">
-              <h3>{t("contact.contactByPhoneEmail")}</h3>
               <h2>
                 <span className="number">+995322040040</span>
                 <span className="or">{t("contact.or")}</span>
@@ -43,24 +37,6 @@ const ContactFormContent = () => {
               </h2>
 
               <ul className="social">
-                <li>
-                  <a
-                    href="https://twitter.com/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <i className="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.youtube.com/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <i className="fab fa-youtube"></i>
-                  </a>
-                </li>
                 <li>
                   <a
                     href="https://www.facebook.com/"

@@ -30,18 +30,17 @@ const Footer = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="https://twitter.com/" target="_blank">
-                      <i className="flaticon-twitter"></i>
+                    <a
+                      href="https://www.linkedin.com/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <i className="fab fa-linkedin-in"></i>
                     </a>
                   </li>
                   <li>
                     <a href="https://www.instagram.com/" target="_blank">
                       <i className="flaticon-instagram-logo"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.youtube.com/" target="_blank">
-                      <i className="flaticon-youtube-play-button"></i>
                     </a>
                   </li>
                 </ul>
@@ -60,12 +59,23 @@ const Footer = () => {
                 <ul className="footer-services-list">
                   <li>
                     <Link href="/services">{t("footer.design")}</Link>
+
                   </li>
                   <li>
                     <Link href="/services">{t("footer.desktopApp")}</Link>
                   </li>
                   <li>
                     <Link href="/services">{t("footer.mobileApp")}</Link>
+                  </li>
+                  <li>
+                    <Link href="/services">{t("services.digital")}</Link>
+                  </li>
+                  <li>
+                    <Link href="/services">{t("services.content")}</Link>
+                  </li>
+                  <li>
+                    <Link href="/services">{t("services.data")}</Link>
+
                   </li>
                 </ul>
               </div>
