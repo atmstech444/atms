@@ -21,7 +21,7 @@
     "dropUsMessage": "Drop Us Message For Any Query"
   },
   "footer": {
-    "design": "UX/UI Design",
+    "design": "UX/UI & Graphic Design",
     "desktopApp": "Desktop Applications",
     "mobileApp": "Mobile Applications",
     "quickLinks": "Quick Links",
@@ -76,6 +76,5 @@
     "teem": "Meet Our Team",
     "partner": "Featured Partners",
     "more": "See More"
-
   }
 }
