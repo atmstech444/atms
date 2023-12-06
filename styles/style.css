@@ -3027,7 +3027,7 @@ Team Area CSS
 .single-team-box .content h3 {
   margin-bottom: 0;
   transition: 0.5s;
-  font-size: 23px;
+  font-size: 15px;
   font-weight: 700;
 }
 .single-team-box .content span {
@@ -6778,8 +6778,8 @@ Solutions Area CSS
 =================================================*/
 .solutions-area {
   padding-bottom: 80px;
-  background-color: #ffefe9;
-  background-image: url(/images/solutions-bg.jpg);
+  background-color: #ffefeb;
+  /* background-image: url(/images/solutions-bg.jpg); */
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;

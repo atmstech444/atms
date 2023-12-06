@@ -20,7 +20,7 @@ const ProfessionalSolutions = () => {
                   <img src="/images/back.png" />
                 </div>
                 <h3>
-                  <Link href="/projects-details">{t("services.back")}</Link>
+                  <Link href="/services">{t("services.back")}</Link>
                 </h3>
                 <p>.Net, Python, PHP, Node</p>
               </div>
@@ -32,7 +32,7 @@ const ProfessionalSolutions = () => {
                   <img src="/images/front.png" />
                 </div>
                 <h3>
-                  <Link href="/projects-details">{t("services.front")}</Link>
+                  <Link href="/services">{t("services.front")}</Link>
                 </h3>
                 <p>Mark Up, React, Nextjs,</p>
               </div>
@@ -44,7 +44,7 @@ const ProfessionalSolutions = () => {
                   <img src="/images/mobile.png" />
                 </div>
                 <h3>
-                  <Link href="/projects-details">{t("services.mobile")}</Link>
+                  <Link href="/services">{t("services.mobile")}</Link>
                 </h3>
                 <p>Android, iOS, React Native, .NET Maui</p>
               </div>
@@ -56,7 +56,7 @@ const ProfessionalSolutions = () => {
                   <img src="/images/designer.png" />
                 </div>
                 <h3>
-                  <Link href="/projects-details">{t("services.design")}</Link>
+                  <Link href="/services">{t("services.design")}</Link>
                 </h3>
                 <p>UX Design, UI Design, Graphic Design</p>
               </div>
@@ -68,7 +68,7 @@ const ProfessionalSolutions = () => {
                   <img src="/images/delivery.png" />
                 </div>
                 <h3>
-                  <Link href="/projects-details">{t("services.manage")}</Link>
+                  <Link href="/services">{t("services.manage")}</Link>
                 </h3>
                 <p>
                   Agile Project Management · Product Management · Cloud
@@ -83,7 +83,7 @@ const ProfessionalSolutions = () => {
                   <img src="/images/sistem.png" />
                 </div>
                 <h3>
-                  <Link href="/projects-details">{t("services.data")}</Link>
+                  <Link href="/services">{t("services.data")}</Link>
                 </h3>
                 <p>Linux · SysAdmin · DevOps / Cloud Services</p>
               </div>

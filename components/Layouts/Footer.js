@@ -59,6 +59,7 @@ const Footer = () => {
                 <ul className="footer-services-list">
                   <li>
                     <Link href="/services">{t("footer.design")}</Link>
+
                   </li>
                   <li>
                     <Link href="/services">{t("footer.desktopApp")}</Link>
@@ -74,6 +75,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link href="/services">{t("services.data")}</Link>
+
                   </li>
                 </ul>
               </div>
