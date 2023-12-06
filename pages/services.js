@@ -17,8 +17,6 @@ const Services = () => {
       />
 
       <ServicesContent />
-
-      <FeedbackSlider />
     </>
   );
 };
