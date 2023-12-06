@@ -59,7 +59,6 @@ const Footer = () => {
                 <ul className="footer-services-list">
                   <li>
                     <Link href="/services">{t("footer.design")}</Link>
-
                   </li>
                   <li>
                     <Link href="/services">{t("footer.desktopApp")}</Link>
@@ -75,7 +74,6 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link href="/services">{t("services.data")}</Link>
-
                   </li>
                 </ul>
               </div>
@@ -140,7 +138,7 @@ const Footer = () => {
             <div className="row align-items-center">
               <div className="col-lg-6 col-md-6 col-sm-6">
                 <p>
-                  Copyright &copy;{currentYear} Bariton. {t("footer.rights")}.
+                  Copyright &copy;{currentYear} ATMS. {t("footer.rights")}.
                 </p>
               </div>
 

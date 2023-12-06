@@ -126,6 +126,7 @@ const ContactForm = () => {
                 value={contact.text}
                 onChange={handleChange}
                 required
+                style={{ resize: "none" }}
               />
             </div>
           </div>

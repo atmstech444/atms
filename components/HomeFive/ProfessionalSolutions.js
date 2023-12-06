@@ -27,7 +27,7 @@ const ProfessionalSolutions = () => {
             </div>
 
             <div className="col-lg-4 col-md-6 col-sm-6">
-              <div className="single-solutions-box active">
+              <div className="single-solutions-box ">
                 <div className="icon">
                   <img src="/images/front.png" />
                 </div>

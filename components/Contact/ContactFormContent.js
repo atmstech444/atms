@@ -17,7 +17,7 @@ const ContactFormContent = () => {
             <div className="row align-items-center">
               <div className="col-lg-5 col-md-12">
                 <div className="contact-image">
-                  <img src="/images/contact.png" alt="image" />
+                  <img src="/images/page-title-bg2.svg" alt="image" />
                 </div>
               </div>
 
@@ -28,12 +28,18 @@ const ContactFormContent = () => {
           </div>
 
           {/* Contact info */}
-          <div className="contact-info">
+          {/* <div className="contact-info">
             <div className="contact-info-content">
               <h2>
-                <span className="number">+995322040040</span>
-                <span className="or">{t("contact.or")}</span>
-                <span className="email">business@atms.ge</span>
+                <div>
+                  <i class="fa-solid fa-phone icon-2"></i>
+                  <span className="number">+995322040040</span>
+                </div>
+                <span className="or"></span>
+                <div>
+                  <i class="fa-solid fa-envelope icon-2"></i>
+                  <span className="email">business@atms.ge</span>
+                </div>
               </h2>
 
               <ul className="social">
@@ -66,7 +72,7 @@ const ContactFormContent = () => {
                 </li>
               </ul>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
     </>

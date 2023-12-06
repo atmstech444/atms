@@ -81,7 +81,7 @@ const Team = () => {
 
                   <div className="social">
                     <a
-                      href="https://www.linkedin.com/"
+                      href="https://www.linkedin.com/in/sandro-tushurashvili/"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -137,7 +137,7 @@ const Team = () => {
 
                   <div className="social">
                     <a
-                      href="https://www.linkedin.com/in/sandro-tushurashvili/"
+                      href="https://www.linkedin.com/in/saba-satseradze-865b99203/"
                       target="_blank"
                       rel="noreferrer"
                     >
