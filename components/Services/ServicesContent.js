@@ -80,7 +80,7 @@ const ServicesContent = () => {
             <div className="col-lg-4 col-sm-6">
               <div className="single-services-box" style={{ height: "250px" }}>
                 <div className="icon">
-                  <i className="fas fa-database"></i>
+                  <img src="/images/innovation.png" />
                 </div>
 
                 <h3>{t("services.digital")}</h3>
@@ -94,7 +94,7 @@ const ServicesContent = () => {
             <div className="col-lg-4 col-sm-6">
               <div className="single-services-box" style={{ height: "250px" }}>
                 <div className="icon">
-                  <i className="fas fa-chart-line"></i>
+                  <img src="/images/content.png" />
                 </div>
 
                 <h3>{t("services.content")}</h3>
@@ -105,7 +105,7 @@ const ServicesContent = () => {
             <div className="col-lg-4 col-sm-6">
               <div className="single-services-box" style={{ height: "250px" }}>
                 <div className="icon">
-                  <i className="fas fa-project-diagram"></i>
+                  <img src="/images/designer.png" />
                 </div>
 
                 <h3>{t("services.marketdesign")}</h3>

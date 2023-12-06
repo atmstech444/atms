@@ -76,6 +76,26 @@
     "teem": "Meet Our Team",
     "partner": "Featured Partners",
     "more": "See More"
+  },
+  "teem": {
+    "teona": "Teona Piranishvili",
+    "ana": "Ana Gigauri",
+    "anri": "Anri Kopaliani",
+    "sandro": "Sandro Tushurashvili",
+    "mariamD": "Mariam Datukishvili",
+    "mariamT": "Mariam Tsiklauri",
+    "luka": "Luka Koridze",
+    "nanuka": "Nanuka Roinishvili",
+    "sopo": "Sophie Laluashvili",
+    "dato": "Davit Dabadze ",
+    "zuka": "Zuka Gobronidze",
+    "saba": "Saba Satseradze",
 
+    "react": "React Developer",
+    "ui/ux/grap": "UI/UX & Graphic designer",
+    "ui/ux": "UI/UX designer",
+    ".net": ". NET developer",
+    "php": "PHP/Laravel developer",
+    "manager": "IT project manager"
   }
 }

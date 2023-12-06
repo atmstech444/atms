@@ -59,15 +59,13 @@ const Footer = () => {
 
                 <ul className="footer-services-list">
                   <li>
-                    <Link href="/service-details">{t("footer.design")}</Link>
+                    <Link href="/services">{t("footer.design")}</Link>
                   </li>
                   <li>
-                    <Link href="/service-details">
-                      {t("footer.desktopApp")}
-                    </Link>
+                    <Link href="/services">{t("footer.desktopApp")}</Link>
                   </li>
                   <li>
-                    <Link href="/service-details">{t("footer.mobileApp")}</Link>
+                    <Link href="/services">{t("footer.mobileApp")}</Link>
                   </li>
                 </ul>
               </div>
