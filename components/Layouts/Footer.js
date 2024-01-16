@@ -13,9 +13,9 @@ const Footer = () => {
             <div className="col-lg-3 col-md-6 col-sm-6 ml-6">
               <div
                 className="single-footer-widget"
-                data-aos="fade-in"
-                data-aos-duration="1200"
-                data-aos-delay="100"
+                // data-aos="fade-in"
+                // data-aos-duration="1200"
+                // data-aos-delay="100"
               >
                 <div className="logo">
                   <Link href="/">
@@ -50,9 +50,9 @@ const Footer = () => {
             <div className="col-lg-3 col-md-6 col-sm-6">
               <div
                 className="single-footer-widget"
-                data-aos="fade-in"
-                data-aos-duration="1200"
-                data-aos-delay="200"
+                // data-aos="fade-in"
+                // data-aos-duration="1200"
+                // data-aos-delay="200"
               >
                 <h3>{t("header.services")}</h3>
 
@@ -82,9 +82,9 @@ const Footer = () => {
             <div className="col-lg-3 col-md-6 col-sm-6">
               <div
                 className="single-footer-widget"
-                data-aos="fade-in"
-                data-aos-duration="1200"
-                data-aos-delay="300"
+                // data-aos="fade-in"
+                // data-aos-duration="1200"
+                // data-aos-delay="300"
               >
                 <h3>{t("footer.quickLinks")}</h3>
 
@@ -98,9 +98,9 @@ const Footer = () => {
                   <li>
                     <Link href="/services">{t("header.services")}</Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link href="/projects">{t("header.projects")}</Link>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
@@ -108,9 +108,9 @@ const Footer = () => {
             <div className="col-lg-3 col-md-6 col-sm-6">
               <div
                 className="single-footer-widget"
-                data-aos="fade-in"
-                data-aos-duration="1200"
-                data-aos-delay="400"
+                // data-aos="fade-in"
+                // data-aos-duration="1200"
+                // data-aos-delay="400"
               >
                 <h3>{t("header.contact")}</h3>
 

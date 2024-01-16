@@ -6,16 +6,15 @@ const AboutContact = () => {
     <>
       <section className="about-area ptb-110">
         <div className="container">
-          <div className="row align-items-center">
+          <div className="row ">
             <div className="col-lg-6 col-md-12">
               <div className="about-image">
-                <img src="/images/about/about1.jpg" alt="image" />
-                <img src="/images/about/about2.jpg" alt="image" />
+                <img src="/images/welcome.avif" alt="image" />
               </div>
             </div>
             <div className="col-lg-6 col-md-12">
               <div className="about-content">
-                <h2>{t("aboutUs.title")}</h2>
+                <h4>{t("aboutUs.title")}</h4>
                 <p>{t("aboutUs.descrp")}</p>
                 <h4 className="mt-4">{t("aboutUs.who")}</h4>
                 <p>{t("aboutUs.who1")}</p>

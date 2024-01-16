@@ -11,7 +11,6 @@ import "swiper/css";
 import "swiper/css/bundle";
 import "../styles/style.css";
 import "../styles/responsive.css";
-
 import Head from "next/head";
 import GoTop from "../components/Shared/GoTop";
 import { I18nextProvider } from "react-i18next";

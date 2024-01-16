@@ -109,7 +109,7 @@ const NavbarFive = () => {
                     </Link>
                   </li>
 
-                  <li className="nav-item">
+                  {/* <li className="nav-item">
                     <Link
                       href="/projects/"
                       className={`nav-link ${
@@ -118,7 +118,7 @@ const NavbarFive = () => {
                     >
                       {t("header.projects")}
                     </Link>
-                  </li>
+                  </li> */}
 
                   <li className="nav-item">
                     <Link
@@ -147,13 +147,13 @@ const NavbarFive = () => {
                       className="dropdownImage"
                       src={`${
                         selectedLanguage === "en"
-                          ? "/images/geo.png"
-                          : "/images/eng.png"
+                          ? "/images/eng.png"
+                          : "/images/geo.png"
                       }`}
                     />
-                    <a style={{ marginLeft: "2px" }}>
-                      {selectedLanguage === "en" ? "ka" : "en"}
-                    </a>
+                    {/* <a style={{ marginLeft: "2px" }}>
+                      {selectedLanguage === "en" ? "EN" : "KA"}
+                    </a> */}
                   </li>
                 </ul>
               </div>

@@ -20,7 +20,7 @@ const Index5 = () => {
 
       <ProfessionalSolutions />
 
-      <PartnerSlider />
+      {/* <PartnerSlider /> */}
     </>
   );
 };

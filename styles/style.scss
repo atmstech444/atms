@@ -9100,10 +9100,10 @@ AI Subscribe Area CSS
               stroke-linejoin: round;
               stroke-dasharray: 12px;
               stroke-dashoffset: 12px;
-              transition: all 0.3s ease;
-              transition-delay: 0.1s;
-              transform: translate3d(0, 0, 0);
-              transition: $transition;
+              // transition: all 0.3s ease;
+              // transition-delay: 0.1s;
+              // transform: translate3d(0, 0, 0);
+              // transition: $transition;
             }
             &:before {
               content: "";

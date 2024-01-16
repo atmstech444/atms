@@ -27,7 +27,7 @@ const About = () => {
 
       <Team />
 
-      <PartnerContent />
+      {/* <PartnerContent /> */}
 
       {/*<PricingCard />
        <FeedbackSlider />

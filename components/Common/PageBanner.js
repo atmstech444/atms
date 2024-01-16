@@ -18,7 +18,7 @@ const PageBanner = ({
               <li>
                 <Link href={homePageUrl}>{homePageText}</Link>
               </li>
-              <li>{activePageText}</li>
+              <li style={{ color: "white" }}>{activePageText}</li>
             </ul>
           </div>
         </div>

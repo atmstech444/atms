@@ -2989,7 +2989,6 @@ Team Area CSS
   background-color: #ffffff;
   transition: 0.5s;
   text-align: center;
- 
 }
 .single-team-box .image {
   position: relative;
@@ -6636,7 +6635,7 @@ Main Banner Area CSS
 Main Services Area CSS
 =================================================*/
 .logo {
-  width: 250px;
+  width: 130px;
 }
 .main-services-area {
   padding-bottom: 80px;
