@@ -55,7 +55,7 @@ const NavbarFive = () => {
             <nav className="navbar navbar-expand-md navbar-light">
               <Link href="/" className="navbar-brand">
                 <img
-                  src="/images/black-logo.png"
+                  src="/images/black-logo.jpg"
                   className="optional-logo logo"
                   alt="logo"
                 />
